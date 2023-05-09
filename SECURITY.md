@@ -1,7 +1,26 @@
-# GitHub Security Policy
+## Security Policy
 
-GitHub's [Bug Bounty program](https://bounty.github.com) rewards researchers for discovering security vulnerabilities in a number of repositories. The full list of projects that are eligible for rewards are [available on our Bug Bounty site](https://bounty.github.com/#scope).
+## Reporting Security Issues
 
-If the repository is eligible for rewards, you can submit a report via [HackerOne](https://hackerone.com/github). You can find more useful information in our [rules](https://bounty.github.com/#rules) and [FAQ](https://bounty.github.com/#faqs).
+**Please do not report security vulnerabilities through public GitHub issues.**
 
-For repositories not covered by the Bug Bounty program, please open an issue.
+Instead use GitHub [built-in capabilities](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability) to report a security 
+vulnerability privately.
+
+Please include the requested information listed below (as much as you can provide) to help me better understand the nature and scope of the possible issue:
+
+  * Type of issue (e.g. buffer overflow, SQL injection, cross-site scripting, etc.)
+  * Full paths of source file(s) related to the manifestation of the issue
+  * The location of the affected source code (tag/branch/commit or direct URL)
+  * Any special configuration required to reproduce the issue
+  * Step-by-step instructions to reproduce the issue
+  * Proof-of-concept or exploit code (if possible)
+  * Impact of the issue, including how an attacker might exploit the issue
+
+## Supported Versions
+
+Only the latest version is supported.
+
+## Preferred Languages
+
+I prefer all communications to be in English.
